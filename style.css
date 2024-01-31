@@ -1,5 +1,5 @@
 h1, h2, h3, a {
-    margin-bottom: 25px;
+  
     text-align: center;
     font-family: 'Trebuchet MS';
     color: lightgoldenrodyellow;
@@ -48,7 +48,6 @@ text-align: center;
 .fruit{
 display: block;
 margin: 0 auto;
-padding-bottom: 100px;
 height: 300px;
 width: 500px;
 
