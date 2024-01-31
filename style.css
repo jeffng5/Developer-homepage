@@ -126,3 +126,8 @@ border-radius: 10px;
 .text {
     color: lightgoldenrodyellow;
 }
+
+
+h1.text{
+    padding-top: 15px;
+}
