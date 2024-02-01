@@ -137,5 +137,7 @@ h1.text{
 }
 
 div.links {
+    padding-left: 50px;
     text-align: right;
+
 }
