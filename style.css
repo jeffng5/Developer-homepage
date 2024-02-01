@@ -115,12 +115,12 @@ border-radius: 10px;
 }
 
 .endline{
-    padding-top: 200px;
+    padding-top: 100px;
     color: lightgoldenrodyellow;
 }
 
 #navbar {
- background-color: royalblue;
+    background-color: royalblue;
     color: royalblue;
 }
 
@@ -134,3 +134,4 @@ border-radius: 10px;
 h1.text{
     padding-top: 15px;
 }
+
