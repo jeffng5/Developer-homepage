@@ -57,7 +57,7 @@ li{
    padding-right: 30px; 
 }
 
-.nav-item-right{
+li.nav-item-right{
 margin-right: 660px;
 
 /* margin-right: -100px; */
