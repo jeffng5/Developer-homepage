@@ -118,20 +118,17 @@ border-radius: 10px;
     color: lightgoldenrodyellow;
 }
 
-nav#navbar {
-    background-color: rgb(4, 23, 78);
-    color: rgb(4,23,78);
-    
+a.navbar-brand {
+text-align: left;
 }
+
 
 .text {
     color: lightgoldenrodyellow;
 }
 
-.nav-link{
-    color: midnightblue;
-    
-}
+
+
 h1.text{
     padding-top: 15px;
 }
