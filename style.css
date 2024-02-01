@@ -15,7 +15,7 @@ margin-left: auto;
 margin-right: auto;}
 
 body {
-    background-color: darkgoldenrod; 
+    background-color: navy; 
 }
 
 div{
@@ -152,4 +152,9 @@ video {
 
 img {
     border-radius: 10px;
+}
+
+nav {
+    color: slategray;
+
 }
