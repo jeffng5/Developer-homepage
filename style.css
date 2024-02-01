@@ -57,10 +57,8 @@ li{
    padding-right: 30px; 
 }
 
-li.nav-item-right{
-margin-right: 160px;
-
-/* margin-right: -100px; */
+li.nav-item{
+margin-right: -100px; 
 }
 
 
