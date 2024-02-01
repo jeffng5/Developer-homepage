@@ -58,7 +58,8 @@ li{
 }
 
 li.nav-item{
-margin-right: 300px; 
+display: flexbox;
+margin-right: 30px;
 }
 
 
