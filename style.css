@@ -121,6 +121,7 @@ border-radius: 10px;
 nav#navbar {
     background-color: royalblue;
     color: royalblue;
+    
 }
 
 .text {
@@ -128,7 +129,8 @@ nav#navbar {
 }
 
 .nav-link{
-    color: lightgoldenrodyellow;
+    color: midnightblue;
+    
 }
 h1.text{
     padding-top: 15px;
