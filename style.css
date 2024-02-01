@@ -58,7 +58,7 @@ li{
 }
 
 li.nav-item{
-text-align: right;
+
 display:flexbox;
 margin-right: 30px;
 }
@@ -136,3 +136,6 @@ h1.text{
     padding-top: 15px;
 }
 
+div.links {
+    text-align: right;
+}
