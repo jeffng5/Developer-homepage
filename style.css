@@ -155,5 +155,6 @@ nav {
 
 .text1 {
 color:lightgoldenrodyellow;
-
+display: inline-flexbox;
 }
+
