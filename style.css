@@ -121,7 +121,7 @@ border-radius: 10px;
     color: lightgoldenrodyellow;
 }
 
-.text {
+.text, .text1 {
     color: lightgoldenrodyellow;
     display: inline-block;
 }
