@@ -145,6 +145,8 @@ h1.text{
 }
 
 .animate__animated.animate__fadeInDown {
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 20px;
     color : white;
     padding-left: 150px;
