@@ -9,6 +9,7 @@ h2, h3, a {
 .intro {
     margin-top: 25px;
     color: lightgoldenrodyellow;
+    text-align: center;
 }
 
 .center {
@@ -114,6 +115,9 @@ border-radius: 10px;
     font-size: large;
     padding-bottom: 100px;
     color: lightgoldenrodyellow;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
 }
 
 .endline{
