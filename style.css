@@ -19,7 +19,7 @@ margin-right: auto;
 }
 
 body {
-    background-color: black; 
+    background: url('./developerBACK.webp') no repeat center center fixed; 
 }
 
 .grid-container{
