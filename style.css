@@ -19,7 +19,7 @@ margin-right: auto;
 }
 
 body {
-    background-image: url('./media/developer.png') no repeat center center fixed; 
+    background-image: url('developer.png') no repeat center center fixed; 
 }
 
 .grid-container{
