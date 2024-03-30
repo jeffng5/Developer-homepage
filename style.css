@@ -142,12 +142,12 @@ h1.text{
 
 .animate__animated.animate__fadeInDown {
     border-radius: 20px;
-    background-color: white;
     color : white;
     padding-left: 150px;
     padding-right: 150px;
     box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.5), inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 0px 0px 20px 10px black;
     --animate-duration: 2s;
+    background-color: white;
 }
 
 video {
