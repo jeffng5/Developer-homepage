@@ -25,6 +25,8 @@ div{
     margin-left: 200px;
     margin-right: 200px;
     padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
 
 }
 
@@ -125,11 +127,11 @@ h1.text{
     padding-top: 15px;
 }
 
-div.links {
+.links {
     padding-left: 125px;
 }
 
-div.effect {
+.effect {
     border-radius: 20px;
     background-color: white;
     color : white;
@@ -155,7 +157,6 @@ nav {
 
 .text1 {
 color:lightgoldenrodyellow;
-display: grid;
-grid-template-columns: auto auto;
+
 }
 
