@@ -117,7 +117,7 @@ border-radius: 10px;
 
 .text {
     color: lightgoldenrodyellow;
-    display: block;
+    display: inline-block;
 }
 
 
