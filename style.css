@@ -159,8 +159,9 @@ nav {
     width: 100%;
 }
 
-.text1 {
+.text1, text {
 color:lightgoldenrodyellow;
+display: block;
 
 }
 
