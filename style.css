@@ -155,6 +155,7 @@ nav {
 
 .text1 {
 color:lightgoldenrodyellow;
-display: inline-flexbox;
+display: grid;
+grid-template-columns: auto auto;
 }
 
