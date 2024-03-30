@@ -178,5 +178,5 @@ color: red;
 
 .animate_animated.animate__fadeIn {
     --animate-duration: 2.5s;
-    --animate-delay: 2s;
+   
 }
