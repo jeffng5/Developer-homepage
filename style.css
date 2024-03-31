@@ -2,7 +2,7 @@
     --animate-duration: 2.5s;
 }
 
-.navbar.navbar-expand-lg.navbar-dark.bg-dark.mb-4 {
+.navbar-nav {
     background-color: aqua;
 }
 
@@ -75,12 +75,12 @@ li.nav-item{
 position: relative;
 margin-right: 80px;
 font-family: 'Trebuchet MS';
-font-size: 25px;
+font-size: 21px;
 }
 
 .nav-item-right {
   font-family: 'Trebuchet MS';
-  font-size: 25px;
+  font-size: 21px;
 }
 
 h4 {
