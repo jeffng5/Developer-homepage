@@ -212,5 +212,12 @@ a:hover {
 .techstack, h4 {
     font-family: 'Trebuchet MS';
     font-size: 22px;
-    color: lightskyblue;
+    color: lightgoldenrodyellow;
+    background-color: black;
+}
+
+h4 {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
 }
