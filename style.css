@@ -257,3 +257,7 @@ a:hover {
     padding-left: 40px;
 }
 
+.icon {
+    height: 60px;
+    width: 60px;
+}
