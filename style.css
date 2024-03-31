@@ -2,7 +2,7 @@
     --animate-duration: 2.5s;
 }
 
-.navbar-nav {
+.navbar-nav, .navbar-brand {
     background-color: aqua;
 }
 
