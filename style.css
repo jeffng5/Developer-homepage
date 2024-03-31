@@ -136,7 +136,7 @@ border-radius: 10px;
 }
 
 .title{
-    
+    font-size: 28px;
     padding-bottom: 100px;
     color: lightgoldenrodyellow;
     margin-left: 170px;
@@ -194,7 +194,7 @@ display: block;
 
 p {
     color: red;
-    font-size: 28px;
+
 }
 
 a:hover {
