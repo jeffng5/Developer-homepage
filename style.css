@@ -209,7 +209,7 @@ a:hover {
     text-decoration: none;
 }
 
-.techstack {
+.techstack, h4 {
     font-family: 'Trebuchet MS';
     font-size: 22px;
     color: lightskyblue;
