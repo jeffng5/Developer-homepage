@@ -193,10 +193,12 @@ display: block;
 }
 
 p {
-color: red;
+    color: red;
+    font-size: 21px;
 }
 
 a:hover {
     color: red;
     text-decoration: none;
 }
+
