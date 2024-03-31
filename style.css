@@ -144,9 +144,14 @@ border-radius: 10px;
     text-align: center;
 }
 
-.endline{
+.endline {
     padding-top: 100px;
     color: lightgoldenrodyellow;
+}
+
+.email {
+    color: lightskyblue;
+    padding-top: 100px;
 }
 
 .text, .text1 {
