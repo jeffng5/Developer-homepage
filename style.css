@@ -1,3 +1,7 @@
+.my-custom-cursor {
+    cursor: url('./media/circle.jpeg')
+}
+
 .animate_animated.animate__fadeIn {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
