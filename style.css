@@ -211,6 +211,8 @@ a:hover {
 }
 
 .techstack {
+    animation: fadeInDown;
+    animation-duration: 2s;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: white;
