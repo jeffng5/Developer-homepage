@@ -50,9 +50,7 @@ body {
 
 .grid-item:hover {
     opacity: 1;
-    background-color: white;
-    color: black;
-
+    background-color: black;
 }
 
 img {
@@ -168,11 +166,6 @@ border-radius: 10px;
 
 .text, .text1 {
     color: lightgoldenrodyellow;
-    display: block;
-}
-
-.text:hover, .text1:hover {
-    color: black;
     display: block;
 }
 
