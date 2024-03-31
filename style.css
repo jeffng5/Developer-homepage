@@ -34,7 +34,7 @@ body {
 }
 
 .grid-container{
-
+    border-radius: 16px;
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto;
@@ -54,10 +54,8 @@ body {
 }
 
 img {
-
 height: 230px;
 width: 210px;
-
 }
 
 video {
