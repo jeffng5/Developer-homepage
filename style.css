@@ -210,19 +210,24 @@ a:hover {
 }
 
 .techstack {
+    padding-top: 150px;
     background-color: black;
     border-radius: 12px;
     border: white 2px solid;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
-p {
+b {
     font-family: 'Trebuchet MS';
     display: block;
     color: lightgoldenrodyellow;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
-    padding: 10px;
+    padding: 40px;
+}
+
+.indent {
+    padding-left: 70px;
 }
