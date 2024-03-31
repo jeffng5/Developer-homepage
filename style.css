@@ -209,14 +209,15 @@ a:hover {
     text-decoration: none;
 }
 
-.techstack, h4 {
-    font-family: 'Trebuchet MS';
-    font-size: 22px;
-    color: lightgoldenrodyellow;
+.techstack {
     background-color: black;
 }
 
 h4 {
+    font-family: 'Trebuchet MS';
+    display: block;
+    color: lightgoldenrodyellow;
+    font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
