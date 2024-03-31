@@ -210,12 +210,11 @@ a:hover {
 }
 
 .techstack {
-    padding-top: 150px;
     background-color: black;
     border-radius: 12px;
     border: white 2px solid;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 800px;
+    margin-right: 800px;
 }
 
 b {
