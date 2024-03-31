@@ -76,11 +76,13 @@ position: relative;
 margin-right: 80px;
 font-family: 'Trebuchet MS';
 font-size: 21px;
+color: lightgoldenrodyellow;
 }
 
 .nav-item-right {
   font-family: 'Trebuchet MS';
   font-size: 21px;
+  color: lightgoldenrodyellow;
 }
 
 h4 {
