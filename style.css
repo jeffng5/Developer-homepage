@@ -171,6 +171,10 @@ border-radius: 10px;
     display: block;
 }
 
+.text:hover, .text1:hover {
+    color: black;
+    display: block;
+}
 
 h1.text{
     padding-top: 15px;
