@@ -211,6 +211,8 @@ a:hover {
 
 .techstack {
     background-color: black;
+    border-radius: 12px;
+    border: white 2px solid;
 }
 
 h4 {
