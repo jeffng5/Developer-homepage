@@ -213,18 +213,18 @@ a:hover {
 .techstack {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: black;
-    border-radius: 12px;
+    background-color: white;
+    border-radius: 16px;
     margin-top: 200px;
     margin-left: 900px;
     margin-right: 900px;
-    border: 2px white;
+    border: 2px black;
 }
 
 .no-indent {
     font-family: 'Trebuchet MS';
     display: block;
-    color: lightgoldenrodyellow;
+    color: black;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -233,7 +233,7 @@ a:hover {
 .indent {
     font-family: 'Trebuchet MS';
     display: block;
-    color: lightgoldenrodyellow;
+    color: black;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -243,7 +243,7 @@ a:hover {
 .indent-1 {
     font-family: 'Trebuchet MS';
     display: block;
-    color: lightgoldenrodyellow;
+    color: black;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
