@@ -1,5 +1,5 @@
 .my-custom-cursor {
-    cursor: url('./media/circle.jpeg')
+    cursor: url('./media/circle.jpeg'), auto;
 }
 
 .animate_animated.animate__fadeIn {
