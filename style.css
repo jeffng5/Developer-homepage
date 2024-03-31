@@ -213,9 +213,11 @@ a:hover {
     background-color: black;
     border-radius: 12px;
     border: white 2px solid;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-h4 {
+p {
     font-family: 'Trebuchet MS';
     display: block;
     color: lightgoldenrodyellow;
