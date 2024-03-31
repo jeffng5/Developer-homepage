@@ -50,6 +50,9 @@ body {
 
 .grid-item:hover {
     opacity: 1;
+    background-color: white;
+    color: black;
+
 }
 
 img {
