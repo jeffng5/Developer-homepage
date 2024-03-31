@@ -79,7 +79,13 @@ font-size: 21px;
 color: lightgoldenrodyellow;
 }
 
-.nav-item-right {
+.nav-link {
+    font-size: 21px;
+    color: lightgoldenrodyellow;
+    font-family: 'Trebuchet MS';
+}
+
+.nav-item-right, .navbar-brand {
   font-family: 'Trebuchet MS';
   font-size: 21px;
   color: lightgoldenrodyellow;
