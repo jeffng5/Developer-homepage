@@ -220,6 +220,8 @@ a:hover {
     border-radius: 16px;
     margin-top: 200px;
     border: 2px black solid;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .no-indent {
