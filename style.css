@@ -210,16 +210,16 @@ a:hover {
 }
 
 .techstack {
-    animation: animate__fadeInDown;
-    animation-duration: 2s;
+    /* animation: animate__fadeInDown;
+    animation-duration: 2s; */
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: white;
     border-radius: 16px;
     margin-top: 200px;
-    margin-left: 900px;
-    margin-right: 900px;
-    border: 2px black;
+    border: 2px black solid;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .no-indent {
