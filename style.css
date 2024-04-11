@@ -219,8 +219,8 @@ a:hover {
     background-color: white;
     border-radius: 16px;
     margin-top: 200px;
-    margin-left: 900px;
-    margin-right: 900px;
+    /* margin-left: 900px;
+    margin-right: 900px; */
     border: 2px black;
 }
 
