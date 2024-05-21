@@ -3,6 +3,12 @@
     margin-bottom: 150px;
 }
 
+.border {
+    --animate-duration: 2.5s;
+    margin-bottom: 150px;
+
+}
+
 #navbar-1 {
     color: aqua;
 }
@@ -257,7 +263,7 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-    .animate__animated-animate__fadeInDown {
+    .border {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
     border: white, 1px, solid;
