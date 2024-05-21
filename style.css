@@ -6,7 +6,8 @@
 .border {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
-
+    background-color: white;
+    border: 1px, solid, black;
 }
 
 #navbar-1 {
@@ -266,7 +267,7 @@ a:hover {
     .border {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
-    border: white, 1px, solid;
+    border: black, 1px, solid;
     width: 100%;
     background-color: white;
     }
