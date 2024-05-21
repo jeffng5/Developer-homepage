@@ -280,6 +280,6 @@ a:hover {
 
 @media (max-width: 500px) {
     #navbar-1 {
-        width: 100%;
+        display: inline-flex;
     }
 }
