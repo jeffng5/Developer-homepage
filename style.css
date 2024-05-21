@@ -266,7 +266,7 @@ a:hover {
 }
 
 @media (max-width: 500px) {
-    .border {
+    .animate__animated.animate__fadeInDown {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
     border: black, 1px, solid;
