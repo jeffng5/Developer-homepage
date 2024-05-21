@@ -258,7 +258,8 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     .animate__animated-animate__fadeInDown {
-    float: none;
+    border: white, 1px, solid;
     width: 100%;
+    background-color: white;
     }
     }
