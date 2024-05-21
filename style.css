@@ -1,16 +1,16 @@
-.animate_animated-animate__fadeIn {
+.animate_animated.animate__fadeIn {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
     background-color: white;
     border: 1px, black, solid;
 }
 
-.border {
+/* .border {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
     background-color: white;
     border: 1px, solid, black;
-}
+} */
 
 #navbar-1 {
     color: aqua;
@@ -272,5 +272,6 @@ a:hover {
     border: black, 1px, solid;
     width: 100%;
     background-color: white;
+    border-radius: 16px;
     }
     }
