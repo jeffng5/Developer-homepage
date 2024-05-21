@@ -1,4 +1,4 @@
-.animate_animated.animate__fadeIn {
+.animate_animated-animate__fadeIn {
     --animate-duration: 2.5s;
     margin-bottom: 150px;
 }
@@ -255,3 +255,10 @@ a:hover {
     height: 40px;
     width: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    .animate__animated-animate__fadeInDown {
+    float: none;
+    width: 100%;
+    }
+    }
