@@ -80,9 +80,14 @@ display: block;
 margin: 0 auto;
 height: 300px;
 width: 500px;
-
 }
 
+.fruit1 {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+}
 
 li.nav-item{
 position: relative;
