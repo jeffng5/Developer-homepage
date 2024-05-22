@@ -85,8 +85,10 @@ width: 500px;
 .fruit1 {
     display: block;
     margin: 0 auto;
-    height: 370px;
-    width: 220px;
+    max-height: 370px;
+    max-width: 220px;
+    height: auto;
+    width: auto;
 }
 
 li.nav-item{
