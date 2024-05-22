@@ -36,6 +36,7 @@ margin-right: auto;
 
 body {
     background-image: url('./media/developer.png');
+    
 }
 
 .grid-container{
@@ -209,7 +210,7 @@ color:lightgoldenrodyellow;
 display: block;
 }
 
-p, span {
+span {
     color: red;
     font-size: 28px;
 
@@ -282,4 +283,26 @@ a:hover {
     #navbar-1 {
         display: flex;
     }
+}
+
+.timeline {
+    width: 90%;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+.headline {
+    text-align: center;
+    color: red;
+    display:inline;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.excerpt {
+    margin-top: 25px;
 }
