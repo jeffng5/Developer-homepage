@@ -12,16 +12,17 @@
     border: 1px, solid, black;
 } */
 
-h2, h3, a {
+h2, h3 {
     text-align: center;
     font-family: 'Trebuchet MS';
     color: lightgoldenrodyellow;
 }
 
 .intro {
+    text-align: center;
     margin-top: 25px;
     color: lightgoldenrodyellow;
-    text-align: center;
+  
 }
 
 .center {
@@ -31,13 +32,15 @@ margin-right: auto;
 }
 
 body {
-    background-image: url('./media/developer.png');
+    background-color: black;
     
 }
 
 .grid-container{
     border-radius: 16px;
-    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
     display: grid;
     grid-template-columns: auto auto;
 
@@ -48,6 +51,7 @@ body {
     padding: 15px;
     text-align: center;
     opacity: .30;
+
 }
 
 .grid-item:hover {
@@ -65,11 +69,11 @@ display: block;
 margin: 0 auto;
 }
 
-a {
+/* a {
 display: inline-block;
 margin: 0 auto;
 text-align: center;    
-}
+} */
 
 .fruit{
 display: block;
@@ -87,26 +91,13 @@ width: 500px;
     width: auto;
 }
 
-li.nav-item{
-position: relative;
-margin-left: 80px;
-font-family: 'Trebuchet MS';
-font-size: 21px;
-color: lightgoldenrodyellow;
+.nav-item {
+padding-top: 45px;
+display: inline-flex;
+text-align: center;
 }
 
-.nav-link {
-    font-size: 21px;
-    color: lightgoldenrodyellow;
-    font-family: 'Trebuchet MS';
-}
 
-.nav-item-right, .navbar-brand {
-  font-family: 'Trebuchet MS';
-  font-size: 21px;
-  color: lightgoldenrodyellow;
-  margin-left: 40px;
-}
 
 h4 {
 margin-top:  150px;
@@ -115,41 +106,40 @@ margin-left: 150px;
 
 
 #node {
-height: 230px;
-width: 230px;
+height: 180px;
+width: 180px;
 border-radius: 10px;
 
 }
 
 #flask {
-    height : 230px;
-    width: 300px;
+    height : 180px;
+    width: 250px;
     border-radius: 10px;
 }
 
 #js {
-    height: 230px;
-    width: 248px;
+    height: 180px;
+    width: 198px;
     border-radius: 10px;
 
 }
 
 .package {
     border-radius: 10px;
+    width: 180px;
+    height: 200px;
     padding : 30px;
-    display: inline-flexbox;
+    display: flex;
 }
 
-#plus {
-    height: 100px;
-    width: 90px;
-
+.react {
+    height: 180px;
+    width:200;
 }
 
-#equals{
-    height: 90px;
-    width : 80px
-}
+
+
 
 .title{
     font-size: 28px;
@@ -162,12 +152,12 @@ border-radius: 10px;
 
 .endline {
     padding-top: 100px;
-    color: lightgoldenrodyellow;
+    color: white;
     font-size: 28px;
 }
 
 .email {
-    color: lightskyblue;
+    color: black;
     padding-top: 100px;
 }
 
@@ -176,24 +166,26 @@ border-radius: 10px;
     display: block;
 }
 
-h1.text{
-    padding-top: 15px;
+.text{
+    margin-top: 35px;
 }
 
 .links {
     padding-left: 125px;
 }
 
-div.effect {
+.effect {
     border-radius: 20px;
     color : white;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 135px;
+    padding-right: 135px;
     box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.5), inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 0px 0px 20px 10px black;
     --animate-duration: 2s;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     background-color: white;
+    display: flexbox;
+    grid-row: auto;
 }
 
 video {
@@ -205,7 +197,9 @@ img {
 }
 
 .navbar-nav {
-    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+
 }
 
 .text1, text {
@@ -227,11 +221,9 @@ a:hover {
 .techstack {
     /* animation: animate__fadeInDown;
     animation-duration: 2s; */
-    padding-top: 30px;
     padding-bottom: 30px;
     background-color: white;
     border-radius: 16px;
-    margin-top: 200px;
     border: 2px black solid;
     margin-left: 300px;
     margin-right: 300px;
@@ -269,6 +261,8 @@ a:hover {
 .icon {
     height: 40px;
     width: 40px;
+    margin-right: 20px;
+
 }
 
 @media (max-width: 500px) {
@@ -307,5 +301,70 @@ p {
 }
 
 .excerpt {
+    margin-right: 40px;
+
     margin-top: 25px;
+    display: flex;
+    text-align: center;
+}
+
+.background {
+    background-color: black;
+    padding-bottom: 90px;
+}
+
+.beneath {
+    background-color: black;
+}
+
+.email {
+    color: white;
+}
+
+.technology {
+    display: flex;
+    color: black;
+}
+
+.learned {
+    display: flex;
+}
+
+.photos {
+    grid-row: inherit;
+    display: flex;
+    text-align: center;
+}
+
+.frameworks {
+    display: inline-block;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+
+.other {
+    margin-top: 30px;
+    color: black;
+    font-weight:100px;
+}
+
+#me {
+    border-radius: 20px;
+    height: 200px;
+    width: 180px;
+    margin-right: 50px;
+}
+
+.contacts {
+    display: inline-flex;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+    margin-top: 25px;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 30px;
 }
