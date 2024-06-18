@@ -15,7 +15,7 @@
 h2, h3 {
     text-align: center;
     font-family: 'Trebuchet MS';
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .intro {
@@ -152,7 +152,7 @@ border-radius: 10px;
 
 .endline {
     padding-top: 100px;
-    color: white;
+    color: black;
     font-size: 28px;
 }
 
@@ -162,7 +162,7 @@ border-radius: 10px;
 }
 
 .text, .text1 {
-    color: lightgoldenrodyellow;
+    color: black;
     display: block;
 }
 
@@ -232,7 +232,7 @@ a:hover {
 .no-indent {
     font-family: 'Trebuchet MS';
     display: block;
-    color: black;
+    color: lightgoldenrodyellow;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -241,7 +241,7 @@ a:hover {
 .indent {
     font-family: 'Trebuchet MS';
     display: block;
-    color: black;
+    color: lightgoldenrodyellow;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -251,7 +251,7 @@ a:hover {
 .indent-1 {
     font-family: 'Trebuchet MS';
     display: block;
-    color: black;
+    color: lightgoldenrodyellow;
     font-size: 22px;
     margin-left: 50px;
     margin-right: 50px;
@@ -323,7 +323,7 @@ p {
 
 .technology {
     display: flex;
-    color: black;
+    color: lightgoldenrodyellow;
 }
 
 .learned {
