@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: linear-gradient(to bottom, #002D62, #0066b2, #002D62);
+    background: linear-gradient(to bottom, #002D62, #002D62, #0066b2, #002D62);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -198,4 +198,99 @@ video {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
+}
+
+.copyright {
+    font-family: Verdana, san-serif;
+    font-size: 15px;
+    text-align: center;
+    background: linear-gradient(to right, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+@media only screen and (min-device-width : 320px ) and (max-device-width: 480px) {
+
+.bg {
+    width: 100%;
+}
+
+.me {
+    margin-left: -70px;
+    height: 120px;
+    width: 120px;
+}
+
+.intro {
+    width: 430px;
+}
+.under {
+    width: 200px;
+    flex-wrap: wrap;
+}
+.name {
+    width: 100%;
+    display: inline-block;
+    flexDirection: row;
+    position: relative;
+    bottom: 70px;
+}
+
+.projects {
+    position: relative;
+    bottom: 200px;
+    left: 2px;
+    text-align: center;
+    padding-top: -50px;
+}
+
+.container {
+    text-align: center;
+    width: 350px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.bio {
+    width: 430px;
+    position: relative;
+    right: 130px;
+    bottom: 170px;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+}
+
+.bubble {
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+
+.project-image {
+    width: 300px;
+    height: 280px;
+}
+
+#title-1, .progress {
+    vertical-align: middle;
+
+    
+}
+
+.container-1 {
+    text-align: center;
+    width: 370px;
+    height: 370px;
+    margin-bottom: 50px;
+    border-radius: 14px;
+    box-shadow: 5px 10px 25px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: linear-gradient(to bottom, #6495ED, #89CFF0);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent; 
+}
+
 }
