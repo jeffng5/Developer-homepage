@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: linear-gradient(to bottom, black, darkgray);
+    background: linear-gradient(to bottom, #002D62, #0066b2, #002D62);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -9,7 +9,7 @@ body {
     position: relative;
     top: 60px;
     font-size: 30px;
-    background: linear-gradient(to right, gray, white);
+    background: linear-gradient(to right, darkgray, gray);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -18,12 +18,13 @@ body {
     /* background-image: url('./static/backgroundImage.jpg');
     background-size: cover;
     /* height: 100%; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center; */
 }
 
 .intro {
-    margin-left: 50px;
+    margin-top: 60px;
+    margin-left: 60px;
     color: white;
     font-size: 15px;
     font-weight: 200;
@@ -44,14 +45,14 @@ body {
 }
 
 .me {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
 
 }
 
 .name {
-    font-weight: 300;
+    font-weight: 600;
     padding-bottom: 6px;
     font-size: 30px;
     background: linear-gradient(to right, gray, white);
@@ -109,15 +110,22 @@ h3 {
     bottom: 450px;
     margin-top: 80px;
     border: 2px 2px 2px 2px white solid;
-    border-radius: 12px;    
+    border-radius: 12px;
+    
 }
 
 .container {
-    border: solid 1px white;
+    /* border: solid 1px black; */
+    border-radius: 14px;
+    box-shadow: 5px 10px 25px;
+    margin-bottom: 30px;
     width: 500px;
-    height: 450px;
+    height: 430px;
     text-align: center;
     padding: 30px;
+    background: linear-gradient(to bottom, #6495ED, #89CFF0);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent; 
 }
 
 .title {
@@ -126,7 +134,7 @@ h3 {
     color: white;
     text-decoration: none;
     font-family: Verdana, san-serif;
-    background: linear-gradient(to right, skyblue, silver);
+    background: linear-gradient(to right, #D3D3D3, #E5E4E2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -162,13 +170,32 @@ video {
     color: royalblue;
     margin-top: 60px;
     font-size: 30px;
+    background: linear-gradient(to right, royalblue, skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.progress:hover {
+    background: linear-gradient(to right, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #title-1 {
-    color: white;
+  
     font-family: Verdana, san-serif;
     margin-top: 160px;
     vertical-align: middle;
     padding-bottom: 30px;
     font-size: 30px;
+    background: linear-gradient(to right, skyblue, silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-link:hover {
+    background: linear-gradient(to right, orange, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
