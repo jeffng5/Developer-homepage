@@ -1,160 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/lumen/bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="Developer Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
-  <div class="background">
-
-    <h1 class="intro">Jeff's Timeline</h1>
-
-    <h3 class="title"><a href='projects.html'>
-        <p class='headline'>Full Stack Software Developer | Data Science |</p>
-        <p class=headline><a class='headline' href=bio.html> Bio</a></p>
-      </a>
-
-      <div id="intro">
-        <a href="index.html"><img class='icon' src='./media/home.png'></a>
-        <a href="https://github.com/jeffng5?tab=repositories" target="_blank"><img class='icon'
-            src='./media/github.png'></a>
-        <a href="https://medium.com/@jeffreyng-82" target="_blank"><img class="icon" src='./media/medium.png'></a>
-        <a href="https://www.linkedin.com/in/jeffrey-ng5/" target="_blank"><img class='icon'
-            src='./media/LinkedIn.png'></a>
-      </div>
-      <div class='excerpt'>
-        <img id='me' src="./media/me.jpg">
-
-        grad from New York City - I come from a Hospitality and Customer Service background and enjoy solving
-        engineering
-        problems using my techstack. Recently I founded a website building company called JN Web Solutions to build
-        websites for private businesses. Aside from
-        front and back-end development, I enjoy building ML/Deep Learning models
-        and using Data Science to make predictions.
-      </div>
-    </h3>
-
-
-    <div class="animate__animated animate__fadeInDown">
-      <div class="effect">
-        <div class="photos">
-          <img class="package" id="python" src="./media/OIP.jpeg">
-
-          <img class="package" id="node" src="./media/node.jpeg">
-
-          <img class="package" id="flask" src="./media/Flask.jpeg">
-
-          <img class="package" id="js" src="./media/js.jpg">
-
-          <img class="package" id="react" src="./media/react.jpg">
-
-
+<body class='bg'>
+    <div class='intro'>
+        <img class="me" src="./static/me.jpg" alt="avatar">
+        <div class='under'>
+            <div class="name">Jeffrey Ng</div>
+            <div class='name'>Full Stack Developer | Data Science</div>
         </div>
-        <div class="learned">
-          <ul class="technology">
+    </div>
 
-            <h3 class="other">
-              <div class="frameworks">
-                <button id="jwt">JWT</button>
-                <button id="bcrypt">BCrypt</button>
-            
-                <button id="selenium">Selenium</button>
-                <button id="tensorflow">Tensorflow</button>
-             
-                <button id="pandas">Pandas</button>
-                <button id="postgresql">PostgreSQL</button>
-        
-                <button id="spacy">SpaCy</button>
-                <button id="express">Express</button>
-              </div>
-        
+    <div class="bio">
+        <div class="body-1">
+            <h3>
+                <div class = 'bubble'>I am a Developer</div>
+                <div class= 'bubble'> constantly improving ever since acquiring baseline proficiency from bootcamp. My developer
+                    technologies include <span class='yellow'>Python, JavaScript, Flask, ExpressJS, React, React
+                        Native, NextJS,</span> and <span class="green">many more.</span> My Data Science libraries
+                    include <span class='red'>Pandas, SciKit Learn, Tensorflow, SpaCy, Seaborn.</span></div>
             </h3>
-          </ul>
-          <p class="desc">
-
-          </p>
         </div>
-      </div>
+    </div>
+
+    <div class="projects">
+        <div class='container'>
+            <h3 class='title'>News Aggregator</h3>
+            <img class='project-image' src="./static/cover.jpg">
+            <h3 class='title'><a href="https://frontpage-news-agg.onrender.com/" class='title' target="_blank">News
+                Aggregator | </a>
+
+            <a href="https://github.com/jeffng5/FrontPage-news" class='title' target="_blank">repo</a></h3>
+        </div>
+
+        <div class='container'>
+            <h3 class='title'>Culinary Recipe Finder in React Native</h3>
+            <video width="300" height="250" controls>
+                <source class="photo-project-1" src="./static/foodApp.mp4" type="video/mp4">
+            </video>
+            <h3 class='title'>
+                <a class='title' href='https://github.com/jeffng5/culinary-rec-jn-frontend'>
+                    Frontend repo | </a>
+                <a class='title' href='https://github.com/jeffng5/culinary-rec-backend'> Backend repo</a>
+            </h3>
+        </div>
+
+        <div class= 'container'>
+            <h3 class= 'title'>NLP Movie Recommmender</h3>
+            <video width="300" height="250" controls>
+                <source class="photo-project-1" src="./static/movie-recommender.mp4" type="video/mp4">
+            </video>
+            <h3 class="title"><a class='title' href="https://movie-recommender-mgdb2.onrender.com"
+                target="_blank">Movie
+                Geeks DB | </a> 
+            <a class='title' href='https://github.com/jeffng5/Movie_Recommender'
+                target="_blank">repo</a>
+        </h3>
+        </div>
+
+        <div class = 'container'>
+            <h3 class= 'title'>AirBnb Reservation System</h3>
+
+            <img class="photo-project-1" src="./static/airbnb1.jpg">
+
+            <h3 class='title'><a class='title' href="">Demo coming shortly | </a> <a
+                href='https://github.com/jeffng5/airbnb' class='title'>repo</a></h3>
+        </div>
+
+        <div class= 'container'>
+            <div id="title-1">and more in my</div> <div><a class='progress'
+                href="https://github.com/jeffng5?tab=repositories"> Github...</a></div>
+
+        </div>
+
     </div>
 
 
-    <body class="beneath">
-      <h1 class='intro'>Portfolio</h1>
-      <div class='grid-container'>
-        <div class='grid-item'>
-          <h2 class="text1">News Aggregator</h2>
-          <h3 class="text1">Tech Stack: Express.js, React, PostgreSQL</h3>
-          <img class="fruit" src="./media/cover.png">
-          <h3 class="text"> <a href="https://frontpage-news-agg.onrender.com/" target="_blank">Site</a> |
-            <a href="https://github.com/jeffng5/FrontPage-news" target="_blank">repo</a>
-          </h3>
-        </div>
 
+    <script src="" async defer></script>
+</body>
 
-        <div class="grid-item">
-          <h2 class="text1">Movie Recommender Using NLP</h2>
-          <h3 class="text1">Tech Stack: JavaScript, Python, Flask</h3>
-
-          <video width="500" height="350" controls>
-            <source src="./media/movie-recommender.mp4" type="video/mp4">
-          </video>
-
-          <h3 class="text"><a href="https://movie-recommender-mgdb2.onrender.com" target="_blank">Movie Geeks DB</a> |
-            <a href='https://github.com/jeffng5/Movie_Recommender' target="_blank">repo</a>
-          </h3>
-        </div>
-
-        <div class="grid-item">
-          <h2 class='text1'>Earthquake Predictor</h2>
-          <h3 class='text1'>Tech Stack: Python, Tensorflow, Seaborn </h3>
-          <h3 class='text'><a
-              href="https://docs.google.com/presentation/d/1pIqk5-NN86szZGaZgWNKM681LFEsrW0e_aU3tUp7fM4/edit#slide=id.g8f59c23fc9_0_47"
-              target="_blank">Presentation</a>
-            | <a href='https://github.com/halujeff5/EarthquakeProj'>Repo</a>
-          </h3>
-        </div>
-
-        <div class="grid-item">
-          <h2 class='text1'>Search Bar</h2>
-          <h3 class='text1'>Tech Stack: JavaScript</h3>
-          <img class="fruit" src="./media/fruitSearch.png">
-          <h3 class='text'><a href="https://jeffng5.github.io/fruit-search/" target="_blank">Site</a> | <a
-              href='https://github.com/jeffng5/fruit-search'>repo</a></h3>
-        </div>
-
-        <div class='grid-item'>
-          <h2 class='text1'>Jobly - in conjunction with Springboard</h2>
-          <h3 class='text1'>Tech Stack: Express.js, React</h3>
-          <img class="fruit" src="./media/Jobly-sn.png">
-          <h3 class='text'><a href="http://www.hoc-plastic.surge.sh/" target="_blank">Site</a> | <a
-              href='https://github.com/jeffng5/react-jobly'>repo</a></h3>
-        </div>
-
-
-        <div class='grid-item'>
-          <h2 class='text1'>Airbnb Reservation System</h2>
-          <h3 class='text1'>Tech Stack: Express.js, JavaScript</h3>
-          <img class="fruit1" src="./media/airbnb1.png">
-          <h3 class='text'><a href="">Demo coming shortly</a> | <a href='https://github.com/jeffng5/airbnb'>repo</a></h3>
-        </div>
-
-
-        <div class='grid-item'>
-          <h2 class='text1'>AI chatbot using ChatGPT</h2>
-          <h3 class='text1'>Tech Stack: Python, Flask</h3>
-          <img class="fruit" src="./media/chatbot.png">
-          <h3 class='text'><a href='https://chatbot-w801.onrender.com' target="_blank">Chatbot</a> | <a
-              href='https://github.com/jeffng5/chatbot/tree/browser'>repo</a></h3>
-        </div>
-      </div>
-      <h3 class='email'>Contact Info : jeffreykng@hotmail.com</h3>
-
-    </body>
-
-    <script type="'text/javascript" src="showElement.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-
-  
+</html>
