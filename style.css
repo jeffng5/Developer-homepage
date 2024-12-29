@@ -323,7 +323,6 @@ h3 {
 
 .w3-red {
     background: linear-gradient(to right, orange, yellow);
-    /* -webkit-background-clip: text;  */
     -webkit-text-fill-color: transparent; 
 }
 
@@ -339,7 +338,6 @@ h3 {
     text-align: center;
     padding: 30px;
     background: linear-gradient(to bottom, gray, silver, gray);
-    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent; 
 
 }
@@ -373,7 +371,6 @@ h3 {
 .bg {
     width: 100%;
     background: linear-gradient(to bottom, #002D62, #002D62, #0066b2, #002D62);
-    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
