@@ -370,7 +370,7 @@ h3 {
 
 @media only screen and (min-device-width : 320px ) and (max-device-width: 480px) {
 
-.bg {
+body {
     width: 100%;
     background: linear-gradient(to bottom, #002D62, #002D62, #0066b2, #002D62);
     -webkit-background-clip: text;
